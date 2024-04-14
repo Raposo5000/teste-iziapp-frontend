@@ -45,7 +45,6 @@ const Register = () => {
         );
       }
     }
-    await api.post("/register", { name, email, password });
   };
 
   return (
