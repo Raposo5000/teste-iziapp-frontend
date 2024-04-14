@@ -182,7 +182,7 @@ const Dashboard = () => {
           <LogoutSpan onClick={logout}>Sair</LogoutSpan>
         </MainHeader>
         <ActionsHeader>
-          <Button onClick={() => setIsModalCreateTaskOpen(true)}>
+          <Button onClick={async () => await setIsModalCreateTaskOpen(true)}>
             ADICIONAR +
           </Button>
           <Select onChange={handleChangeStatus}>
