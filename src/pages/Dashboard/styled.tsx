@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { TypeStatusTask } from "../../interfaces/task";
-import { animationFadeIn } from "../../components/StyledShared";
 
 export const ContainerTasks = styled.div`
   display: flex;
@@ -33,7 +32,6 @@ export const BoxDashboard = styled.div`
   box-shadow: 2px 2px 28px black;
   background-color: #f1f2f4;
   border-radius: 12px;
-  animation: ${animationFadeIn} 0.7s ease-in;
 `;
 
 export const ContainerIcons = styled.div`

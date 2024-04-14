@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { animationFadeIn } from "../../components/StyledShared";
 
 export const Container = styled.div`
   height: 100vh;
@@ -18,7 +17,6 @@ export const BoxLogin = styled.div`
   flex-direction: column;
   align-items: center;
   box-shadow: 2px 2px 28px black;
-  animation: ${animationFadeIn} 0.7s ease-in;
 `;
 
 export const ContainerFormLogin = styled.form`

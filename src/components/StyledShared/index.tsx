@@ -1,13 +1,5 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 
-export const animationFadeIn = keyframes`
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-`;
 
 export const Container = styled.div`
   height: 100vh;
